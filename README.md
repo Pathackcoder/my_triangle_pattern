@@ -1,0 +1,1 @@
+# my_triangle_pattern
