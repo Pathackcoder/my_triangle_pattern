@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+main(){
+    int i,j,n;
+    char letter;
+    cout<<"enter any character: ";
+    cin>>letter;
+    
+    cout<<"enter rows (less than 10): ";
+    cin>>n;
+    
+    if(n>10){
+        cout<<"Sorry! this program is designed only for 10 rows and you entered equal or over than 10 rows";
+    }
+    else{
+            for(i=1;i<=n;i++){
+        for(j=1;j<=n-i;j++){
+            cout<<" ";
+            
+        }
+        for(j=1;j<=i;j++){
+            cout<<letter<<" ";
+        }
+    cout<<endl;
+    }
+    }
+}
